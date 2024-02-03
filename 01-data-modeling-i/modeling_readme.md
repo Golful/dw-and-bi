@@ -1,19 +1,34 @@
-Actor
--id
--login = user name
--url = link of the actor’s profile
+# Data Modeling 1
 
-Event
--id
--type = type of event
--actor_id (foriegn key)
--created_at = time event created
+## tables
 
-Repo
+### Actors
+|Attribute|Data Type|Note|
+|:------------|:---------------:|:---------------:|
+|id|int||
+|login|text|username|
+|url|text|link of the actor’s profile|
+
+### Events
+|Attribute|Data Type|Note|
+|:------------|:---------------:|:---------------:|
+|id|text||
+|type|text|type of event|
+|actor_id|int|(foriegn key)|
+|created_at|text|time event created|
+
+### Repos
 -id
 -name 
 -event_id (foriegn key)
+|Attribute|Data Type|Note|
+|:------------|:---------------:|:---------------:|
+|id|int||
+|name|text||
+|event_id|text|(foriegn key)|
 
-Payload
--event_id
--size = size of payload
+### Payloads
+|Attribute|Data Type|Note|
+|:------------|:---------------:|:---------------:|
+|event_id|text|(foreign key)|
+|size|int|size of payload|
