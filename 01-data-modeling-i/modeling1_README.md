@@ -1,6 +1,31 @@
 # Data Modeling 1
 
-## tables
+For Mac users:
+
+```sh
+brew install postgresql
+```
+
+## Running Postgres
+
+```sh
+docker-compose up
+```
+
+To shutdown, press Ctrl+C and run:
+
+```sh
+docker-compose down
+```
+
+## Running ETL Scripts
+
+```sh
+python create_tables.py
+python etl.py
+```
+
+## Tables
 
 ### Actors
 |Attribute|Data Type|Note|
