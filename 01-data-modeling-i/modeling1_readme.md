@@ -18,9 +18,6 @@
 |created_at|text|time event created|
 
 ### Repos
--id
--name 
--event_id (foriegn key)
 |Attribute|Data Type|Note|
 |:------------|:---------------:|:---------------:|
 |id|int||
