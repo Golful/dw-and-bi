@@ -14,7 +14,7 @@
 |:------------|:---------------:|:---------------:|
 |id|text||
 |type|text|type of event|
-|actor_id|int|(foriegn key)|
+|actor_id|int|(foreign key)|
 |created_at|text|time event created|
 
 ### Repos
@@ -22,7 +22,7 @@
 |:------------|:---------------:|:---------------:|
 |id|int||
 |name|text||
-|event_id|text|(foriegn key)|
+|event_id|text|(foreign key)|
 
 ### Payloads
 |Attribute|Data Type|Note|
