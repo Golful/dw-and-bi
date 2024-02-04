@@ -39,19 +39,11 @@ table_create_repos = """
         CONSTRAINT fk_event FOREIGN KEY(event_id) REFERENCES events(id)
     )
 """
-table_create_payloads = """
-    CREATE TABLE IF NOT EXISTS payloads (
-        event_id text,
-        size int,
-        CONSTRAINT fk_event FOREIGN KEY(event_id) REFERENCES events(id)
-    )
-"""
 
 create_table_queries = [
     table_create_actors,
     table_create_events,
     table_create_repos,
-    table_create_payloads,
 ]
 drop_table_queries = [
     table_drop_events,

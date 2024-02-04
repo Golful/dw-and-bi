@@ -95,17 +95,6 @@ def process(cur, conn, filepath):
                 # print(insert_statement)
                 cur.execute(insert_statement)
 
-                # Insert data into tables here
-                insert_statement = f"""
-                    INSERT INTO payloads (
-                        event_id,
-                        size,
-                    ) VALUES ('{each["id"]}', {each["payload"]["size"]})
-                    ON CONFLICT (id) DO NOTHING
-                """
-                # print(insert_statement)
-                cur.execute(insert_statement)
-
                 conn.commit()
 
 

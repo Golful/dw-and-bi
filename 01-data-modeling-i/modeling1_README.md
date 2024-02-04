@@ -25,6 +25,12 @@ python create_tables.py
 python etl.py
 ```
 
+## Steps
+### 1) docker-compose up
+### 2) python create_tables.py
+### 3) python etl.py
+
+
 ## Tables
 
 ### Actors
@@ -48,9 +54,3 @@ python etl.py
 |id|int||
 |name|text||
 |event_id|text|(foreign key)|
-
-### Payloads
-|Attribute|Data Type|Note|
-|:------------|:---------------:|:---------------:|
-|event_id|text|(foreign key)|
-|size|int|size of payload|
