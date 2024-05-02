@@ -774,3 +774,8 @@ SyntaxError: invalid syntax
 [2024-03-23T11:49:46.740+0000] {logging_mixin.py:188} INFO - [2024-03-23T11:49:46.740+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dog_api_pipeline.py
 [2024-03-23T11:49:46.743+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dog_api_pipeline.py
 [2024-03-23T11:49:46.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog_api_pipeline.py took 0.046 seconds
+[2024-03-23T11:50:17.071+0000] {processor.py:161} INFO - Started process (PID=54659) to work on /opt/airflow/dags/dog_api_pipeline.py
+[2024-03-23T11:50:17.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dog_api_pipeline.py for tasks to queue
+[2024-03-23T11:50:17.073+0000] {logging_mixin.py:188} INFO - [2024-03-23T11:50:17.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dog_api_pipeline.py
+[2024-03-23T11:50:17.075+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dog_api_pipeline.py
+[2024-03-23T11:50:17.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog_api_pipeline.py took 0.023 seconds
