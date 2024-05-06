@@ -20,7 +20,7 @@ python etl_bigquery.py
 Open Bigquery and try using query
 ```sh
 SELECT actor, count(1) as c 
-FROM `ascendant-voice-413911.github.events` 
+FROM `THE TABLE NAME` 
 group by actor
 order by c desc
 ```
