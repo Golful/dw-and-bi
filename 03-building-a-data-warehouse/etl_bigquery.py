@@ -36,7 +36,7 @@ def main(dataset_id, table_id, file_path):
     # keyfile = os.environ.get("KEYFILE_PATH")
     #
     # แต่เพื่อความง่ายเราสามารถกำหนด File Path ไปได้เลยตรง ๆ
-    keyfile = "insert_keyfile_path_here"
+    keyfile = "../credentials/ds525-load-data-to-bigquery.json"
     service_account_info = json.load(open(keyfile))
     credentials = service_account.Credentials.from_service_account_info(service_account_info)
 
