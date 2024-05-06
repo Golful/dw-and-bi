@@ -18,9 +18,3 @@ python etl_bigquery.py
 ```
 
 Open Bigquery and try using query
-```sh
-SELECT actor, count(1) as c 
-FROM `THE TABLE NAME` 
-group by actor
-order by c desc
-```
