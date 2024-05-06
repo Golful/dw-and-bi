@@ -62,9 +62,7 @@ def get_files(filepath: str) -> List[str]:
 
 
 def process(session, filepath):
-    # Get list of files from filepath
-    all_files = get_files(filepath)
-
+    
     for datafile in all_files:
         with open(datafile, "r") as f:
             data = json.loads(f.read())
