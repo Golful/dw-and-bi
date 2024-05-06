@@ -7,10 +7,10 @@ brew install postgresql
 ```
 
 ## Running Postgres
-
 ```sh
 docker-compose up
 ```
+- open port 8080
 
 To shutdown, press Ctrl+C and run:
 
