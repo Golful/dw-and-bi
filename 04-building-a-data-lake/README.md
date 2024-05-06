@@ -10,5 +10,5 @@ Docker compose up
 docker-compose up
 ```
 
-- Open port 888
+- Open port 8888
 - Fill in token from terminal
