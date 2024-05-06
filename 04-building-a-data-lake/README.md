@@ -15,3 +15,7 @@ docker-compose up
 - Fill in token from terminal
 
 - Look for etl files in "work" folder
+
+# etl_gcs_to_gcs.py
+- edit SERVICE_ACCOUNT_EMAIL and KEYFILE_PATH
+- create variables
