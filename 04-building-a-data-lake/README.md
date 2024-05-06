@@ -11,4 +11,7 @@ docker-compose up
 ```
 
 - Open port 8888
+
 - Fill in token from terminal
+
+- Look for etl files in "work" folder
