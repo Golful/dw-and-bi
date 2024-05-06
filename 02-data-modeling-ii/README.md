@@ -1,9 +1,4 @@
 # Data Modeling II
-
-```sh
-docker compose up
-```
-
 use virtual environment and download requirements
 ```sh
 python -m venv ENV
@@ -14,3 +9,13 @@ source ENV/bin/activate
 ```sh
 pip install -r requirements.txt
 ```
+
+Run Cassandra
+```sh
+docker compose up
+```
+Run etl.py
+```sh
+python etl.py
+```
+
