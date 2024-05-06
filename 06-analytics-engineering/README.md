@@ -11,6 +11,13 @@ source ENV/bin/activate
 pip install -r requirements.txt
 ```
 
+SQL Pad
+```sh
+docker compose up
+```
+- open port 3000
+-fill in email and password from docker-compose.yml
+
 Test dbt connection
 ```sh
 dbt debug
