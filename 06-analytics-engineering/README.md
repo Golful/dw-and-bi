@@ -16,7 +16,7 @@ SQL Pad
 docker compose up
 ```
 - open port 3000
--fill in email and password from docker-compose.yml
+- fill in email and password from docker-compose.yml
 
 Test dbt connection
 ```sh
