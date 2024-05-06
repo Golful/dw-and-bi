@@ -1,13 +1,14 @@
 # Building a Data Lake
 
-เพื่อให้เราสามารถสร้างไฟล์ได้จาก Jupyter Lab ให้รันคำสั่งด้านล่างนี้
-
+To be able to create files from Jupyter Lab, run the following command
 ```sh
 sudo chmod 777 .
 ```
 
-แล้วค่อยรัน
-
+Docker compose up
 ```sh
 docker-compose up
 ```
+
+- Open port 888
+- Fill in token from terminal
