@@ -14,6 +14,8 @@ pip install -r requirements.txt
 
 Download keyfile from Bigquery and put it in credential folder for safety
 
+Edit keyfile path in etl_bigquery.py (in row 40)
+
 Run etl_bigquery.py
 ```sh
 python etl_bigquery.py
