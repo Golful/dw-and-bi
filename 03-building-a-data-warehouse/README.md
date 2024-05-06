@@ -12,6 +12,8 @@ source ENV/bin/activate
 pip install -r requirements.txt
 ```
 
+Download keyfile from Bigquery and put it in credential folder for safety
+
 Run etl_bigquery.py
 ```sh
 python etl_bigquery.py
